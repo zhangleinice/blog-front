@@ -1,8 +1,8 @@
 ## ⌨️ 本地开发
 
 ```bash
-$ git clone http://zhanglei@git.innotechx.com/scm/x/pt-fe-aegis.git
-$ cd pt-fe-aegis/mt-ui-md/
+$ git clone https://github.com/zhangleinice/blog-front.git
+$ cd blog-front
 $ yarn
 $ yarn start
 ```

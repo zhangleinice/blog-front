@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "prettier.semi": false,
+    "prettier.trailingComma": "all",
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 120,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib",
+}

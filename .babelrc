@@ -1,0 +1,21 @@
+{
+    "presets": [
+        [ "@babel/preset-env",
+            {
+                "targets": {
+                    "chrome": "67"
+                },
+                "corejs": "3",
+                "useBuiltIns": "usage"
+            }
+        ],
+        "@babel/react",
+        "@babel/typescript"
+    ],
+    "plugins": [ "@babel/plugin-syntax-dynamic-import",
+        [ "@babel/plugin-proposal-decorators", {
+            "legacy": true
+        } ],
+        "@babel/plugin-proposal-class-properties"
+    ]
+}
